@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assests/cal.css">
+</head>
+<body>
+
+        <h1>CALCULATOR</h1>
+    <div id="one">
+    <input type="text" name="" id="result">
+        <button onclick="appendvalue('1')">1</button>
+        <button onclick="appendvalue('2')">2</button>
+        <button onclick="appendvalue('3')">3</button>
+        <button id="add" onclick="appendoperator('+')">+</button>
+        <button onclick="appendvalue('4')">4</button>
+        <button onclick="appendvalue('5')">5</button>
+        <button onclick="appendvalue('6')">6</button>
+        <button id="sub" onclick="appendoperator('-')">-</button>
+        <button onclick="appendvalue('7')">7</button>
+        <button onclick="appendvalue('8')">8</button>
+        <button onclick="appendvalue('9')">9</button>
+        <button id="mul" onclick="appendoperator('*')">*</button>
+        <button id="clear" onclick="appendclear()">C</button>
+        <button onclick="appendvalue('.')">.</button>
+        <button id="equal" onclick="equal('=')">=</button>
+        <button id="div" onclick="appendoperator('/')">/</button>        
+    </div>
+     <script src="./assests/script.js"></script>
+</body>
+</html>
