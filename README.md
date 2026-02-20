@@ -12,5 +12,4 @@ A simple calculator built using **HTML, CSS, and JavaScript**.
 - CSS3  
 - JavaScript  
 
-## Author
-Developed by **Your Name**
+
